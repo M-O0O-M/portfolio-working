@@ -1,4 +1,5 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
+import profileImage from '@/assets/profile-jerry.jpg';
 
 export default function Hero() {
   const scrollToSection = (href: string) => {
@@ -31,9 +32,9 @@ export default function Hero() {
             <div className="relative">
               <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-slate-700 overflow-hidden glass-card p-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
-                  alt="Professional Developer Profile"
-                  className="w-full h-full object-cover rounded-full scale-125"
+                  src={profileImage}
+                  alt="Jerry James - Professional Developer"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div className="absolute -inset-4 rounded-full border-2 border-primary/20 animate-spin animate-duration-8000"></div>
@@ -43,7 +44,7 @@ export default function Hero() {
 
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              <span className="gradient-text lg:text-7xl">Your Name</span>
+              <span className="gradient-text lg:text-7xl">Jerry James</span>
             </h1>
             <p className="text-xl md:text-2xl font-normal lg:font-light text-muted-foreground mb-8 leading-relaxed max-w-2xl">
               AI Engineer & Full-Stack Developer
@@ -100,9 +101,9 @@ export default function Hero() {
           <div className="relative">
             <div className="w-72 h-72 rounded-full bg-slate-700 overflow-hidden glass-card p-2">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
-                alt="Professional Developer Profile"
-                className="w-full h-full object-cover rounded-full scale-125"
+                src={profileImage}
+                alt="Jerry James - Professional Developer"
+                className="w-full h-full object-cover rounded-full"
               />
             </div>
             <div className="absolute -inset-4 rounded-full border-2 border-primary/20 animate-spin animate-duration-8000"></div>
