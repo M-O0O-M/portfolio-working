@@ -23,7 +23,7 @@ const projects: Project[] = [
     description: 'Lightning-fast build tool that provides instant server start and hot module replacement. Vite leverages native ES modules for a superior development experience.',
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop',
     technologies: ['TypeScript', 'Rollup', 'ESBuild', 'HMR', 'ES Modules'],
-    githubUrl: 'https://github.com/vitejs/vite',
+    githubUrl: 'https://github.com/M-O0O-M/1-vite.git',
     liveUrl: 'https://vitejs.dev',
     categories: ['Developer Tools', 'Build Tools'],
     status: 'Featured',
@@ -36,7 +36,7 @@ const projects: Project[] = [
     description: 'Incredibly fast JavaScript runtime, bundler, test runner, and package manager all in one. Built from scratch to speed up your workflow with native performance.',
     image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600&h=400&fit=crop',
     technologies: ['Zig', 'JavaScript', 'Runtime', 'Bundler', 'Package Manager'],
-    githubUrl: 'https://github.com/oven-sh/bun',
+    githubUrl: 'https://github.com/M-O0O-M/2-bun.git',
     liveUrl: 'https://bun.sh',
     categories: ['Developer Tools', 'Runtime'],
     status: 'Open Source'
@@ -48,7 +48,7 @@ const projects: Project[] = [
     description: 'Modern static site builder that delivers lightning-fast performance with partial hydration. Build faster websites with less client-side JavaScript.',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
     technologies: ['TypeScript', 'Astro', 'SSG', 'Partial Hydration', 'Islands'],
-    githubUrl: 'https://github.com/withastro/astro',
+    githubUrl: 'https://github.com/M-O0O-M/astro.git',
     liveUrl: 'https://astro.build',
     categories: ['Web Framework', 'Static Site'],
     status: 'Open Source'
@@ -243,7 +243,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 flex-1 group/view-code"
                     >
-                      <Github className="w-4 h-4 mr-2" />
+                      <Github className="w-4 h-4 mr-4" />
                       View Code
                     </a>
                   )}
@@ -254,7 +254,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3 flex-1"
                     >
-                      <ExternalLink className="w-4 h-4 mr-2" />
+                      <ExternalLink className="w-4 h-4 mr-4" />
                       Live Demo
                     </a>
                   )}

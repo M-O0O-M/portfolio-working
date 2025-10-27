@@ -1,8 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "019a2243-3c9e-7163-a089-9110e305b774",
-  "main": "./src/worker/index.ts",
-  "compatibility_date": "2025-06-17",
+  "name": "portfolio",
+  "main": "src/react-app/main.tsx",
+  "compatibility_date": "2025-10-11",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true
