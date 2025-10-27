@@ -1,7 +1,4 @@
-## Mocha
-
-
-To run the devserver:
+##To run the devserver:
 ```
 npm install
 npm run dev
