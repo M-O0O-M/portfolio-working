@@ -19,7 +19,7 @@ const experiences: ExperienceItem[] = [
     title: 'Senior Software Engineer',
     company: 'Tech Company Inc.',
     location: 'San Francisco, CA',
-    duration: 'Jan 2023 – Present',
+    duration: 'Jan 2022 – Present',
     description: 'Leading full-stack development initiatives and mentoring junior developers while architecting scalable solutions for enterprise applications.',
     achievements: [
       'Led development of microservices architecture serving 1M+ users',
@@ -36,7 +36,7 @@ const experiences: ExperienceItem[] = [
     title: 'Full-Stack Developer',
     company: 'Innovation Labs',
     location: 'New York, NY',
-    duration: 'Jun 2021 – Dec 2022',
+    duration: 'Jun 2019 – Dec 2021',
     description: 'Developed and maintained multiple client-facing applications using modern web technologies and best practices.',
     achievements: [
       'Built responsive web applications used by 100K+ users',
@@ -52,7 +52,7 @@ const experiences: ExperienceItem[] = [
     title: 'Software Engineer Intern',
     company: 'StartupCo',
     location: 'Austin, TX',
-    duration: 'May 2020 – Aug 2020',
+    duration: 'May 2018 – Aug 2018',
     description: 'Contributed to early-stage product development and gained hands-on experience with agile development methodologies.',
     achievements: [
       'Developed key features for MVP launch',

@@ -19,33 +19,33 @@ const skillCategories: SkillCategory[] = [
     title: 'Programming Languages',
     icon: <Code className="w-4 h-4 text-white" />,
     skills: [
-      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', description: 'AI/ML, automation, APIs', experience: '5y+', level: 'primary' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', description: 'Full-stack, React, Node.js', experience: '3y+', level: 'primary' },
-      { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', description: 'Enterprise React/Next.js', experience: '2y+', level: 'secondary' },
+      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', description: 'AI/ML, automation, APIs', experience: '7y+', level: 'primary' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', description: 'Full-stack, React, Node.js', experience: '6y+', level: 'primary' },
+      { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg', description: 'Enterprise React/Next.js', experience: '4y+', level: 'secondary' },
       { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', description: 'Spring Boot, enterprise', experience: '1y+', level: 'basic' },
       { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg', description: 'Systems, algorithms', experience: 'Academic', level: 'basic' },
-      { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', description: 'Database design, queries', experience: '2y+', level: 'secondary' },
+      { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', description: 'Database design, queries', experience: '5y+', level: 'secondary' },
     ]
   },
   {
     title: 'AI/ML Technologies',
     icon: <Brain className="w-4 h-4 text-white" />,
     skills: [
-      { name: 'TensorFlow', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg', description: 'Deep learning, neural networks', experience: '2y+', level: 'secondary' },
+      { name: 'TensorFlow', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg', description: 'Deep learning, neural networks', experience: '3y+', level: 'secondary' },
       { name: 'PyTorch', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg', description: 'Research, experimentation', experience: '1y+', level: 'basic' },
       { name: 'OpenAI SDK', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg', description: 'GPT integration, automation', experience: '1y+', level: 'basic' },
       { name: 'Hugging Face', icon: 'https://huggingface.co/front/assets/huggingface_logo-noborder.svg', description: 'Transformers, fine-tuning', experience: '1y+', level: 'basic' },
-      { name: 'Scikit-learn', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg', description: 'Traditional ML, preprocessing', experience: '2y+', level: 'secondary' },
-      { name: 'Pandas', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg', description: 'Data analysis, manipulation', experience: '2y+', level: 'secondary' },
+      { name: 'Scikit-learn', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg', description: 'Traditional ML, preprocessing', experience: '4y+', level: 'secondary' },
+      { name: 'Pandas', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg', description: 'Data analysis, manipulation', experience: '4y+', level: 'secondary' },
     ]
   },
   {
     title: 'Backend Development',
     icon: <Server className="w-4 h-4 text-white" />,
     skills: [
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', description: 'RESTful APIs, microservices', experience: '3y+', level: 'primary' },
-      { name: 'Express.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg', description: 'Web frameworks, middleware', experience: '3y+', level: 'primary' },
-      { name: 'FastAPI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg', description: 'High-performance Python APIs', experience: '2y+', level: 'secondary' },
+      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', description: 'RESTful APIs, microservices', experience: '6y+', level: 'primary' },
+      { name: 'Express.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg', description: 'Web frameworks, middleware', experience: '6y+', level: 'primary' },
+      { name: 'FastAPI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg', description: 'High-performance Python APIs', experience: '4y+', level: 'secondary' },
       { name: 'Django', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg', description: 'Web apps, admin panels', experience: '1y+', level: 'basic' },
       { name: 'Flask', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg', description: 'Lightweight APIs', experience: '1y+', level: 'basic' },
       { name: 'Spring Boot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg', description: 'Enterprise Java apps', experience: '1y+', level: 'basic' },
@@ -55,23 +55,23 @@ const skillCategories: SkillCategory[] = [
     title: 'Frontend Development',
     icon: <Monitor className="w-4 h-4 text-white" />,
     skills: [
-      { name: 'React.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', description: 'Component architecture, hooks', experience: '3y+', level: 'primary' },
+      { name: 'React.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', description: 'Component architecture, hooks', experience: '6y+', level: 'primary' },
       { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg', description: 'SSG/SSR applications', experience: '1y+', level: 'basic' },
       { name: 'Vue.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg', description: 'Progressive web apps', experience: 'Project-based', level: 'basic' },
-      { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg', description: 'Utility-first styling', experience: '2y+', level: 'secondary' },
-      { name: 'HTML/CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg', description: 'Responsive design', experience: '4y+', level: 'primary' },
+      { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg', description: 'Utility-first styling', experience: '3y+', level: 'secondary' },
+      { name: 'HTML/CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg', description: 'Responsive design', experience: '7y+', level: 'primary' },
     ]
   },
   {
     title: 'Cloud & DevOps',
     icon: <Cloud className="w-4 h-4 text-white" />,
     skills: [
-      { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg', description: 'EC2, S3, Lambda, RDS', experience: '2y+', level: 'secondary' },
-      { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', description: 'Containerization', experience: '2y+', level: 'secondary' },
+      { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg', description: 'EC2, S3, Lambda, RDS', experience: '4y+', level: 'secondary' },
+      { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', description: 'Containerization', experience: '4y+', level: 'secondary' },
       { name: 'Kubernetes', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', description: 'Container orchestration', experience: 'Project-based', level: 'basic' },
-      { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', description: 'NoSQL databases', experience: '2y+', level: 'secondary' },
-      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg', description: 'Relational databases', experience: '2y+', level: 'secondary' },
-      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', description: 'Version control, collaboration', experience: '4y+', level: 'primary' },
+      { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', description: 'NoSQL databases', experience: '4y+', level: 'secondary' },
+      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg', description: 'Relational databases', experience: '5y+', level: 'secondary' },
+      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', description: 'Version control, collaboration', experience: '7y+', level: 'primary' },
     ]
   },
 ];

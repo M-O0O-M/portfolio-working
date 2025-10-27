@@ -44,7 +44,7 @@ export default function About() {
             <h3 className="text-2xl font-semibold text-foreground">My Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p className="text-sm md:text-base">
-                With over 4 years of experience in full-stack development and more than 2 years of experience in AI/ML Engineering, I've had the privilege of working with vibrant teams across enterprise companies, building everything from MVPs to large-scale applications serving millions of users.
+                With 7 years of experience spanning full-stack development and AI/ML Engineering, I've had the privilege of working with vibrant teams across enterprise companies, building everything from MVPs to large-scale applications serving millions of users.
               </p>
               <p className="text-sm md:text-base">
                 My journey has been defined by creating meaningful impact through technology. From research publications to innovation competitions, I've consistently focused on building solutions that genuinely improve people's lives. Whether working on accessibility, security, or wellness applications, I'm driven by the belief that technology should be both powerful and purposeful.
@@ -117,7 +117,7 @@ export default function About() {
             <div className="text-muted-foreground font-medium">Projects Completed</div>
           </div>
           <div className="text-center glass-card p-4 lg:p-6 rounded-xl">
-            <div className="text-2xl lg:text-4xl font-bold gradient-text mb-2">4+</div>
+            <div className="text-2xl lg:text-4xl font-bold gradient-text mb-2">7+</div>
             <div className="text-muted-foreground font-medium">Years Experience</div>
           </div>
           <div className="text-center glass-card p-4 lg:p-6 rounded-xl">
