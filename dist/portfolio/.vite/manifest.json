@@ -1,0 +1,18 @@
+{
+  "src/assets/profile-jerry.jpg": {
+    "file": "assets/profile-jerry-BQIfZmAB.jpg",
+    "src": "src/assets/profile-jerry.jpg"
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "css": [
+      "assets/index-XUBOVCNv.css"
+    ],
+    "assets": [
+      "assets/profile-jerry-BQIfZmAB.jpg"
+    ]
+  }
+}
